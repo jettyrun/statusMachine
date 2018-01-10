@@ -58,6 +58,7 @@ public class Main {
         StatusMachineEngine.post(leavePermit);
         System.out.println("--->>>>>>>>>end<<<<<<<<-------");
 
+
         LeavePermit leavePermit2=new LeavePermit();
         leavePermit2.setLeavePermitType(LeavePermitType.MEDICAL_LEAVE);
         leavePermit2.setStatus(Status.PERMIT_SUBMIT);
